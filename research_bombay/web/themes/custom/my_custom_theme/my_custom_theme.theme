@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\Core\Render\Markup;
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function my_custom_theme_preprocess_page(array &$variables) {
+  // Custom logic here if needed
+}

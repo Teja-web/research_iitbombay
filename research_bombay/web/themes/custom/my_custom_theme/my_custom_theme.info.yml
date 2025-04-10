@@ -1,0 +1,14 @@
+name: 'My Custom Theme'
+type: theme
+description: 'A custom Drupal 10 theme.'
+core_version_requirement: ^10 || ^11
+base theme: classy
+libraries:
+  - my_custom_theme/global-styling
+regions:
+  top_banner: 'Top Banner'
+  logo: 'Logo'
+  navigation: 'Navigation Menu'
+  sidebar_first: 'Left Sidebar'
+  content: 'Content'
+  footer: 'Footer'

@@ -1,0 +1,17 @@
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sidebar {
+    width: 25%;
+  }
+  main {
+    width: 75%;
+  }
+  @media (max-width: 768px) {
+    .sidebar,
+    main {
+      width: 100%;
+    }
+  }
+  
